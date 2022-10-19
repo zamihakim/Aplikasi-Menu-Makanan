@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailLauk"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imgtok"
+            android:layout_width="match_parent"
+            android:layout_height="313dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/martabak_telor"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:id="@+id/tok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Martabak Telor"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/harga1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="35.000"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/desc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Martabak telur merupakan penyempurnaan dari Murtabak yaitu cemilan dengan bahan terigu dari India. Murtabak berasal dari bahasa India yang berarti berlipat. Ahmad memberi berbagai inovasi pada murtabak seperti menambah daging cincang dan potongan sayuran pada adonan serta adonan disesuaikan dengan lidah orang Indonesia. Kemudian Ahmad memberi nama makanan tersebut martabak.."
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/imgmie"
+            android:layout_width="match_parent"
+            android:layout_height="313dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pukis"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:id="@+id/judulmie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Pukis"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/harga3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="40.000"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/desc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Awal kisahnya, kue pukis ini berasal dari seorang pengusaha Tionghua yang memiliki pekerja seorang pemuda Indonesia. Untuk keberlangsungan bisnianya, pengusaha selalu berusaha merahasiakan resep kue pukis ini."
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/imgbuah"
+            android:layout_width="match_parent"
+            android:layout_height="313dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kue_pancong"
+            android:layout_gravity="left"/>
+
+        <TextView
+            android:id="@+id/judulbuah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Kue Pancong"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/harga4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="40.000"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/desc4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Kue pancong ini berasal dari Jakarta, sehingga sering disebut dengan makanan khas Betawi. Kue pancong memiliki ciri khas rasa yang gurih dan asin. Kue ini terbuat dari campuran tepung beras, santan, garam, gula pasir, dan kelapa parut."
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
